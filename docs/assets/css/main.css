@@ -1,1 +1,98 @@
-* {margin: 0;padding: 0;}body {background: #FAFAFA;font-family: 'Rubik', sans-serif;font-size: 16px;margin: 0;height: 100vh;}.container {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}.form__container {background-color: #11C8B5;border-top: 20px solid #11C8B5;color: #fff;padding: 0px 0;width: 400px;height: 200px;}.form__container .formulario {color: #212121;text-align: center;}.form__container .formulario input[type=text] {margin-bottom: 20px;padding: 10px;width: 90%;}.form__container .formulario input[type=text].error {border: 5px solid #c75050;}.form__container .formulario .boton {background-color: white;border: 3px solid #0d9688;color: #fff;display: inline-block;border-radius: 30px;font-size: 20px;padding: 15px;}#buttonTask {color: #11C8B5;}.form__container .formulario .boton:hover {border: 1px solid #fff;}.label__input {font-family: 'Rubik', sans-serif;font-size: 16px;color: white;margin: 10px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: initial;-webkit-box-direction: initial;-ms-flex-direction: initial;flex-direction: initial;}.task__list {width: 400px;height: 400px;background-color: #11C8B5;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}.task__list .list {list-style: none;margin-top: 0;}.task__list .list li a {color: #212121;display: block;padding: 20px 0;text-decoration: none;}.task__list .list li a:hover {text-decoration: line-through;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FAFAFA;
+	font-family:'Rubik', sans-serif;
+  font-size: 16px;
+  margin: 0;
+	height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form__container {
+	background-color: #11C8B5;
+	border-top: 20px solid #11C8B5;
+	color: #fff;
+	padding: 0px 0;
+  width: 400px;
+  height: 200px;
+}
+
+.form__container .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.form__container .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 90%;
+}
+
+.form__container .formulario input[type=text].error {
+	border: 5px solid rgb(199, 80, 80);
+}
+
+.form__container .formulario .boton {
+	background-color: white;
+	border: 3px solid rgb(13, 150, 136);
+	color: #fff;
+  display: inline-block;
+  border-radius: 30px;
+	font-size: 20px;
+	padding: 15px;
+}
+#buttonTask{
+  color:#11C8B5;
+}
+.form__container .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+.label__input{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: initial;
+}
+
+.task__list {
+  width: 400px;
+  height: 400px;
+  background-color: #11C8B5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task__list .list {
+  list-style: none;
+  margin-top: 0;
+}
+
+.task__list .list li {
+
+}
+
+.task__list .list li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+  text-decoration: none;
+}
+
+.task__list .list li a:hover {
+  text-decoration: line-through;
+
+}
