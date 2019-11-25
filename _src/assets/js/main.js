@@ -1,5 +1,5 @@
 'use strict';
-
+(function(){
 const list = document.getElementById("list"),
   InputTask = document.getElementById("InputTask"),
   buttonTask = document.getElementById("buttonTask");
@@ -60,4 +60,4 @@ InputTask.addEventListener("click", checkInput);
 for (let i = 0; i <= list.children.length - 1; i++) {
   list.children[i].addEventListener("click", deleteTask);
 }
-
+}());
