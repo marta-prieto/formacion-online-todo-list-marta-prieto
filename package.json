@@ -1,7 +1,7 @@
 {
-	"name": "AdalabWebStarterKit",
+	"name": "Todo list",
 	"version": "2.0.2",
-	"description": "Adalab web starter kit",
+	"description": "Todo list",
 	"dependencies": {
 		"browser-sync": "^2.26.7",
 		"del": "^3.0.0",
