@@ -1,3 +1,4 @@
+'use strict';
 
   const list = document.getElementById("list"),
     InputTask = document.getElementById("InputTask"),
